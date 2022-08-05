@@ -1,0 +1,39 @@
+    /* Everything */
+
+   body{
+    height: 5%;
+   }
+   
+   /* Top Banner Menu */
+    
+
+   /* Both Middle */
+
+   div.slideshow{
+    width: 40%;
+    border: 50px solid transparent;
+   }
+
+   div.cycle-slideshow{
+    width: 100%;
+   }
+
+   div.slideshow img{
+    width: 100%;
+    border: 3px solid aliceblue;
+   }
+   
+   div.sidetext{
+    width: 40%;
+    border: 50px solid transparent;
+   }
+
+   div.sidetext a{
+    color:hotpink;
+   }
+
+   /* Footer */
+   
+   
+   
+  

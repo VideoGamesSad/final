@@ -1,0 +1,75 @@
+/* Everything */
+
+*{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ color: aliceblue;
+ width: 100%;
+ margin: 0 auto 0 auto;
+}
+
+h5{
+    color: transparent;
+    line-height: 3em;
+}
+
+p{
+    font-size: 14pt;
+}
+
+
+/* Top Banner Menu */
+
+nav{
+    background-color: #21124C;
+    border-bottom: 2px solid aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+nav li{
+    border: 5px;
+    line-height: 3em;
+    display: inline-block;
+    width: 0%px;
+    padding: 12px;
+    padding-left: 5%;
+}
+  
+nav li a{
+    color: aliceblue;
+    font-size: 1em;
+}
+
+nav li a.contact{
+ color: aliceblue;
+}
+
+/* Both Middle */
+
+main{
+    background-color: #341C74;
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+
+/* Footer */
+
+footer{
+    line-height: 5em;
+    display: flex;
+    justify-content: center;
+    background-color: #21124C;
+}
+
+footer img{
+    width: 6%;
+    height: 6%;
+}

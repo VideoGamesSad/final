@@ -1,0 +1,26 @@
+/* Everything */
+
+/* Top Banner Menu */
+ 
+/*  Middle */
+
+h1{
+    line-height: 3em;
+}
+
+div.mainimages, div.secondimages, div.lastimages{
+    display: flex;
+justify-content:space-around;
+}
+
+div.imageone, div.imagetwo, div.imagethree, div.imagefour, div.imagefive, div.imagesix{
+width: 50%;
+}
+
+div.imageone img, div.imagetwo img, div.imagethree img, div.imagefour img, div.imagefive img, div.imagesix img{
+    width: 100%;
+    border: 3px solid aliceblue;
+    }
+
+
+/* Footer */
