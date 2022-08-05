@@ -4,7 +4,7 @@
  
 /*  Middle */
 
-h1{
+ul h1{
     line-height: 3em;
 }
 
@@ -14,13 +14,15 @@ justify-content:space-around;
 }
 
 div.imageone, div.imagetwo, div.imagethree, div.imagefour, div.imagefive, div.imagesix{
-width: 50%;
+    max-width: 50%;
 }
 
 div.imageone img, div.imagetwo img, div.imagethree img, div.imagefour img, div.imagefive img, div.imagesix img{
-    width: 100%;
+    max-width: 100%;
     border: 3px solid aliceblue;
     }
 
 
 /* Footer */
+
+/*Media Query */

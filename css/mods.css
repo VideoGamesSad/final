@@ -9,23 +9,27 @@
 
    /* Both Middle */
 
+element.style{
+    position: fixed;
+}
+
    div.slideshow{
-    width: 40%;
+    max-width: 40%;
     border: 50px solid transparent;
    }
 
    div.cycle-slideshow{
-    width: 100%;
+    max-width: 100%;
    }
 
    div.slideshow img{
-    width: 100%;
+    max-width: 100%;
     border: 3px solid aliceblue;
    }
    
    div.sidetext{
-    width: 40%;
-    border: 50px solid transparent;
+    max-width: 40%;
+    border: 10px solid transparent;
    }
 
    div.sidetext a{
@@ -34,6 +38,11 @@
 
    /* Footer */
    
-   
-   
-  
+   /*Media Query */
+
+   @media screen and (max-width:800px){
+    div.slideshow, div.sidetext{
+        border: 5px solid transparent;
+        
+    }
+   }
